@@ -1,0 +1,1 @@
+print("Hello ! \n These are day 5 python scripts." )
