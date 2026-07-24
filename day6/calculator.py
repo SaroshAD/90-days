@@ -1,15 +1,9 @@
 while True:
     operator = input("Enter the operation to do:")
 
-    if operator=="quit":
+    if operator=="quit" or operator=="c" or operator=="exit":
           break
-    elif operator!="+":
-          continue
-    elif operator!="-":
-          continue
-    elif operator!="/":
-          continue
-    elif operator!="*":
+    elif operator!="+" and operator!="-" and operator!="*" and operator!="/":
           print("select the correct command")
           continue
 
